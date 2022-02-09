@@ -1,8 +1,7 @@
 package ru.netology.stats;
 
 public class StatsService {
-    public int allSalesForYear(int[] items) {
-        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+    public int allSalesForYear(int[] sales) {
         int sum = 0;
         for (int sale : sales) {
             sum += sale;
